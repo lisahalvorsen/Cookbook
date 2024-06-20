@@ -12,3 +12,4 @@
 /Users/lisahalvorsen/Desktop/Lisa Halvorsen/Utdanning/Get Academy/Oppgaver/Emne 3/Cookbook/Cookbook/obj/Debug/net8.0/Cookbook.pdb
 /Users/lisahalvorsen/Desktop/Lisa Halvorsen/Utdanning/Get Academy/Oppgaver/Emne 3/Cookbook/Cookbook/obj/Debug/net8.0/Cookbook.genruntimeconfig.cache
 /Users/lisahalvorsen/Desktop/Lisa Halvorsen/Utdanning/Get Academy/Oppgaver/Emne 3/Cookbook/Cookbook/obj/Debug/net8.0/ref/Cookbook.dll
+/Users/lisahalvorsen/Desktop/Lisa Halvorsen/Utdanning/Get Academy/Oppgaver/Emne 3/Cookbook/Cookbook/obj/Debug/net8.0/Cookbook.sourcelink.json

@@ -90,12 +90,12 @@ public static class DishManager
         }
     }
 
-    public static void FindDishCuisine()
+    private static void FindDishCuisine()
     {
         Console.Clear();
         Console.WriteLine("To see the dish(es) from a certain cuisine, type in a cuisine (Example: Italian).");
         string cuisine = Console.ReadLine();
-        var dishByCuisine = _dishes.Where(dish => dish.Cuisine == cuisine);
+        var dishByCuisine = _dishes.Where(dish => dish.Cuisine.ToLower() == cuisine.ToLower());
         if (dishByCuisine.Any())
         {
             List<string> dishNames = [];
@@ -113,7 +113,7 @@ public static class DishManager
         }
     }
 
-    public static void FindDishIngredient()
+    private static void FindDishIngredient()
     {
         Console.Clear();
         Console.WriteLine(
@@ -137,7 +137,7 @@ public static class DishManager
         }
     }
 
-    public static void FindDishLevelOfDifficulty()
+    private static void FindDishLevelOfDifficulty()
     {
         Console.Clear();
         Console.WriteLine(
@@ -171,13 +171,13 @@ public static class DishManager
         }
     }
 
-    public static void PrintRecipeAndInstructions()
+    private static void PrintRecipeAndInstructions()
     {
         Console.Clear();
         Console.WriteLine("Which dish do you want to see the recipe and instructions for? (Example: Lasagna)");
         string dishRecipe = Console.ReadLine();
 
-        var foundDish = _dishes.FirstOrDefault(dish => dish.Name == dishRecipe);
+        var foundDish = _dishes.FirstOrDefault(dish => dish.Name.ToLower() == dishRecipe.ToLower());
 
         if (foundDish != null)
         {
